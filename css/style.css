@@ -235,3 +235,106 @@ html, body{
    line-height: 15px;
    font-style:italic;
  }
+
+ /* TESTIMONIALS */
+ .testimonials {
+   padding:4em 0;
+   text-align: center;
+ }
+ .testimonials h2 {
+   color:#3498DB;
+ }
+ .testimonials ul li {
+   list-style-type: none;
+ }
+ .testimonials blockquote {
+   color:#FFFFFF;
+   text-align: left;
+   font-style: italic;
+   background:#34495E;
+   position: relative;
+   padding:30px;
+   width:auto;
+   margin:0;
+ }
+ .testimonials blockquote:after {
+   top: 100%;
+   left: 13%;
+   border: solid transparent;
+   content: " ";
+   height: 0;
+   width: 0;
+   position: absolute;
+   pointer-events: none;
+   border-top-color: #34495E;
+   border-width: 10px;
+   margin-left: -10px;
+ }
+ .testimonials img {
+   height: 65px;
+   width: 65px;
+   border-radius:50%;
+   float: left;
+   display: inline-block;
+   margin:20px 10px 0 0;
+ }
+ .testimonials p.name {
+   float: left;
+   display: inline-block;
+   text-align: left;
+   font-size:13px;
+   margin-top: 30px;
+ }
+
+ /* FOOTER */
+ footer {
+   background-color: #34495E;
+   background-image: linear-gradient(to top,
+      #3498DB 0%, #3498DB 50%, #34495E 50%, #34495E 100%);
+   color: #FFFFFF;
+   height: 150px;
+   position: relative;
+   overflow: hidden;
+   z-index: 0;
+ }
+ footer p, footer nav ul {
+   font-size:14px;
+   font-weight:100;
+   text-align: center;
+   margin: 10px auto 0;
+ }
+ footer nav ul li {
+   list-style-type: none;
+   display: inline;
+ }
+ footer nav ul li a {
+   color:#FFFFFF;
+   text-decoration: none;
+ }
+ footer .right-footer-block {
+   background-color: transparent;
+ }
+ footer .logo{
+   padding: 2.35em 0;
+   margin: 0 auto;
+   display: block;
+ }
+@media (min-width: 992px){
+   footer{
+     background-color: #3498DB;
+     background-image: linear-gradient(to left,
+        #3498DB 0%, #3498DB 33.33337%, #34495E 33.33337%, #34495E 100%);
+     height: 100px;
+   }
+   footer p, footer nav ul{
+     padding: 2em 0;
+     text-align: left;
+   }
+   footer .right-footer-block {
+     background-color: #3498DB;
+   }
+   footer .logo{
+     padding: 2em 0 2em 1.5em;
+   }
+ }
+
