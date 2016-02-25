@@ -65,6 +65,11 @@ html, body{
      width: 1170px;
    }
  }
+ @media screen and (min-width: 1900px) {
+  .container {
+    width: 1870px;
+  }
+}
 
   /* HEADER */
  header {
@@ -285,6 +290,18 @@ html, body{
    font-size:13px;
    margin-top: 30px;
  }
+ .testimonials li:nth-of-type(odd)
+{
+  position: relative;
+  z-index: 1;
+  top: -30px;
+}
+.testimonials li:nth-of-type(even)
+{
+  position: relative;
+  z-index: 1;
+  top: -20px;
+}
 
  /* FOOTER */
  footer {
