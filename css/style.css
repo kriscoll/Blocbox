@@ -127,25 +127,6 @@ html, body{
    margin:3em auto 0;
  }
 
-.heropic {
-   width: 340px;
-   margin: 0 auto;
-}
-
-@media screen and (min-width: 600px) {
-  .heropic {
-    width: 500px;
-    margin: 0 auto;
-  }
-}
-
-@media screen and (min-width: 768px) {
-  .heropic {
-    width: 700px;
-    margin: 0 auto;
-  }
-}
-
  /* BUTTONS */
  .btn {
    border-radius: 4px;
@@ -322,6 +303,12 @@ html, body{
   top: -20px;
 }
 
+/* CALL TO ACTION */
+
+
+
+
+
  /* FOOTER */
  footer {
    background-color: #34495E;
@@ -456,7 +443,7 @@ html, body{
  .left-nav .site-logo {
    padding:20px 0;
    background:#34495E;
-
+   
    text-align: center;
  }
  .left-nav .items {
