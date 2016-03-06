@@ -127,6 +127,24 @@ html, body{
    margin:3em auto 0;
  }
 
+.heropic {
+   width: 340px;
+    margin: 0 auto;
+ }
+ 
+ @media screen and (min-width: 600px) {
+   .heropic {
+     width: 500px;
+     margin: 0 auto;
+   }
+ }
+ 
+ @media screen and (min-width: 768px) {
+   .heropic {
+     width: 700px;
+     margin: 0 auto;
+   }
+ }
  /* BUTTONS */
  .btn {
    border-radius: 4px;
