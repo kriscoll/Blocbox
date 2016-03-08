@@ -131,14 +131,14 @@ html, body{
    width: 340px;
     margin: 0 auto;
  }
- 
+
  @media screen and (min-width: 600px) {
    .heropic {
      width: 500px;
      margin: 0 auto;
    }
  }
- 
+
  @media screen and (min-width: 768px) {
    .heropic {
      width: 700px;
@@ -447,21 +447,11 @@ html, body{
      display:none;
    }
  }
- .left-nav {
-  height: 100vh;
-   width:14.66666667%;
-   color:#FFFFFF;
-   background: #34495E;
-   background-image: linear-gradient(206deg, #5F81A3 0%, #34495E 94%);
-   float:left;
-   position: fixed;
-   position:absolute;
-   display:block;
- }
+
  .left-nav .site-logo {
    padding:20px 0;
    background:#34495E;
-   
+
    text-align: center;
  }
  .left-nav .items {
@@ -563,6 +553,11 @@ html, body{
    position: relative;
    overflow: hidden;
    padding:20px;
+ }
+
+ .content ul {
+   list-style-type: none;
+   float: right;
  }
 
  /* Larger Mobile Devices */
