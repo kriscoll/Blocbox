@@ -85,7 +85,7 @@ html, body{
  }
  header nav ul {
    display:inline;
-   text-align: right;
+   text-align:right;
    float:right;
    margin:0;
  }
@@ -129,7 +129,7 @@ html, body{
    display: block;
    margin:3em auto 0;
  }
-
+@media screen and (min-width: 400px) {
 .heropic {
    width: 340px;
     margin: 0 auto;
