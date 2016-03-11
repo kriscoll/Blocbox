@@ -129,9 +129,9 @@ html, body{
    display: block;
    margin:3em auto 0;
  }
-@media screen and (min-width: 400px) {
+@media screen and (min-width: 450px) {
 .heropic {
-   width: 340px;
+   width: 200px;
     margin: 0 auto;
  }
 
