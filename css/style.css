@@ -448,13 +448,7 @@ html, body{
      -o-transform: translate(0,0); /** Opera **/
      -moz-transform: translate(0,0); /** Firefox **/
    }
-   .left-nav.open {
-     width:14.66666667%;
-     transform: translate(0,0);
-     -webkit-transform: translate(0,0); /** Chrome & Safari **/
-     -o-transform: translate(0,0); /** Opera **/
-     -moz-transform: translate(0,0); /** Firefox **/
-   }
+   
    .hamburger {
      display:none;
    }
@@ -463,11 +457,7 @@ html, body{
  .left-nav .site-logo {
    padding:20px 0;
    background:#34495E;
-<<<<<<< HEAD
    display:block;
-=======
-
->>>>>>> 16472262666f7fba9d44d9f42d45b0d570b86214
    text-align: center;
  }
  .left-nav .items {
