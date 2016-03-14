@@ -498,7 +498,7 @@ html, body{
     color: white;
  }
 
-.active {
+  .active {
     background-color: #2ECC71;
     color: white;
 }
@@ -513,7 +513,8 @@ html, body{
    bottom:0;
    left:0;
    right:0;
-   padding:10px 0;
+   height: 50px;
+   padding: 10px 0 0px 0px;
  }
  .left-nav .settings img {
    height:35px;
@@ -532,7 +533,6 @@ html, body{
  .left-nav .settings a {
    color:#FFFFFF;
    text-decoration: none;
-   text-align: right;
    float: right;
    margin-right:10px;
    margin-top:8px;
