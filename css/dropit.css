@@ -28,7 +28,7 @@
 	margin: 20px 0 0;
 }
 .dropit .dropit-open .dropit-submenu { display: block; }
-background: #F1F1F1;
+background: #FFFFF;
    box-shadow: 0px 2px 4px 0px rgba(0,0,0,0.30);
    border-radius: 4px;
 }
@@ -52,7 +52,7 @@ background: #F1F1F1;
   margin-bottom: 0px;
  }
  .dropit .dropit-open .dropit-submenu li a {
-  color:#34495E;
+  color:#FFFFF;
   text-decoration: none;
   font-family: "Lato", Helvetica, Arial, sans-serif;
   font-weight:100;
