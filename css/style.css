@@ -491,6 +491,16 @@ html, body{
    margin-right:8px;
  }
 
+/* Change the link color on hover */
+   
+   li a:hover {
+    background-color: #555;
+    color: white;
+ }
+
+
+
+
 
  /* LEFT NAVBAR SETTINGS */
  .left-nav .settings {
