@@ -395,6 +395,22 @@ html, body{
  .dashboard {
    background:#F7F7F7;
  }
+
+
+li a. active {
+  background-color:
+  #4CAF50;
+     color:  white;
+} 
+
+li a:hover:not (.active) {
+  background-color: #555;
+  color: white;
+}
+
+
+
+
  .left-nav {
    height: 100%;
    width:280px;
