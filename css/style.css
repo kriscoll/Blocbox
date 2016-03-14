@@ -5,6 +5,38 @@ html, body{
    font-family: "Lato", Helvetica, Arial, sans-serif;
    color:#333333;
  }
+
+
+
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    width: 200px;
+    background-color: #f1f1f1;
+}
+
+li a {
+    display: block;
+    color: #000;
+    padding: 8px 0 8px 16px;
+    text-decoration: none;
+}
+
+li a.active {
+    background-color: #4CAF50;
+    color: white;
+}
+
+li a:hover:not(.active) {
+    background-color: #555;
+    color: white;
+}
+
+
+
+
  h1, h2, h3, h4, h5, h6 {
    font-family: "Varela Round", Helvetica, Arial, sans-serif;
  }
@@ -488,6 +520,7 @@ html, body{
    text-align: center;
    margin-right:8px;
  }
+
 
  /* LEFT NAVBAR SETTINGS */
  .left-nav .settings {
