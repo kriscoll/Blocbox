@@ -8,6 +8,21 @@ html, body{
 
 
 
+li a.active {
+  background-color:
+  #4CAF50;
+     color:  white;
+} 
+
+li a:hover:not (.active) {
+  background-color: #555;
+  color: white;
+}
+
+
+
+
+
  h1, h2, h3, h4, h5, h6 {
    font-family: "Varela Round", Helvetica, Arial, sans-serif;
  }
@@ -397,16 +412,7 @@ html, body{
  }
 
 
-li a.active {
-  background-color:
-  #4CAF50;
-     color:  white;
-} 
 
-li a:hover:not (.active) {
-  background-color: #555;
-  color: white;
-}
 
 
 
