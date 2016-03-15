@@ -69,16 +69,16 @@ background: #FFFFF;
      padding: 20px;
      margin: 10px 0 0;
  }
- 
+
  #menuSettings .dropit-open .dropit-submenu:after {
    content: " ";
    position: absolute;
    border-style: solid;
-   border-width: 8px 8px 0 8px;
-   border-color: #F1F1f1;
+   border-width: 12px 8px 0;
+   border-color: #F1F1f1 transparent;
    display: block;
    width: 0;
    z-index: 1;
-   top: 142px;
+   top: 121px;
    right: 10px;
- } 
+ }
