@@ -110,7 +110,7 @@ html, body{
    background:#FFFFFF;
  }
  header nav ul > li > a {
-   color:#FFFFFF;
+   color:blue;
    text-decoration: none;
  }
  header nav ul > li.btn-outline:hover > a {
