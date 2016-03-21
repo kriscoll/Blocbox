@@ -508,7 +508,7 @@ html, body{
  }
 
  .left-nav .items ul li a:hover {
-   color: #34495E
+   color: #336699;
    text-decoration: none;
    font-weight: 100;
  }
