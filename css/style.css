@@ -121,7 +121,7 @@ html, body{
    background:#FFFFFF;
  }
  header nav ul > li > a {
-   color:003366;
+   color: white;
    text-decoration: none;
  }
  header nav ul > li.btn-outline:hover > a {
