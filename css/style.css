@@ -527,7 +527,7 @@ html, body{
  }
 
   .active {
-    background-color: #2ECC71;
+    background-color: gray;
     color: white;
 }
 
